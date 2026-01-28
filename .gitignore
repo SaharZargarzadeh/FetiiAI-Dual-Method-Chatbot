@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv*/
+venv/
+env/
+
+# Streamlit / local files
+*.log
+*.sqlite
+*.db
+*.npz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model folder (big files)
+models/
+all-MiniLM-L6-v2/
+
+# Secrets
+.env
